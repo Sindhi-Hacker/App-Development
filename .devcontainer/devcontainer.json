@@ -1,0 +1,18 @@
+{
+  "name": "Universal Mobile Dev",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "postCreateCommand": "bash .devcontainer/setup.sh",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-dotnettools.csharp",
+        "ms-vscode.cpptools",
+        "dart-code.dart-code",
+        "dart-code.flutter",
+        "esbenp.prettier-vscode"
+      ]
+    }
+  }
+}
